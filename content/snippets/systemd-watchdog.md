@@ -2,7 +2,8 @@
 title: "Systemd Watchdog"
 draft: false
 ---
-
+The following pair of systemd unit files work together to run the watchdog script on a periodic (5-minute) basis:
+---
 ```bash
 # copy this file to /etc/systemd/system/my-service-watchdog.service
 
@@ -29,7 +30,7 @@ NoNewPrivileges=yes
 [Install]
 WantedBy=multi-user.target
 ```
-
+----
 ```bash
 # copy this file to /etc/systemd/system/my-service-watchdog.timer
 # filename must match .service file (above)
@@ -44,7 +45,9 @@ Persistent=True
 [Install]
 WantedBy=timers.target
 ```
+----
 
+The systemd service runs this script, which restarts the service if a minimum number of log lines have not been generated within the past 5 minutes:
 ```bash
 #!/bin/bash
 # copy this script to /usr/local/bin/service-watchdog.sh
