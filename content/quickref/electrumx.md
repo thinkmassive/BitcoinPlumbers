@@ -1,8 +1,9 @@
 ---
 title: "ElectrumX"
 draft: false
+summary: "Summary of the ElectrumX project"
+repo_url: https://github.com/spesmilo/electrumx
+docs_url: https://electrumx-spesmilo.readthedocs.io/
 ---
 
-### Links
-- [github repo](https://github.com/spesmilo/electrumx)
-- [docs](https://electrumx.readthedocs.io/en/latest/) (legacy)
+Electrum server written in python.

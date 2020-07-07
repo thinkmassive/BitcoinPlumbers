@@ -13,6 +13,16 @@
       <h2>{{ .Title }}</h2>
 
       {{ .Content }}
+
+      {{ if (.Params.image) }}
+        <img alt="{{ .Params.alt_text }}" src="{{ .Params.image }}">
+      {{ end }}
+
+      <h3>Links</h3>
+      <ul>
+        <li><a href="{{ .Params.git_url }}">git repo</a></li>
+        <li><a href="{{ .Params.docs_url }}">docs</a></li>
+      </ul>
     </section>
   </div>
 {{ end }}
