@@ -1,15 +1,15 @@
 {{ define "main" }}
-  <div class="tip-container">
-    <section class="tip-list">
-      <h2>Tips</h2>
+  <div class="snippet-container">
+    <section class="snippet-list">
+      <h2>Snippets</h2>
       <ul>
-        {{ range (where .Site.RegularPages "Type" "in" "tips") }}
+        {{ range (where .Site.RegularPages "Type" "in" "snippets") }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
       </ul>
     </section>
 
-    <section class="tip">
+    <section class="snippet">
       <h2>{{ .Title }}</h2>
 
       {{ .Content }}
