@@ -2,3 +2,7 @@ baseURL = "http://bitcoinplumbers.org/"
 languageCode = "en-us"
 title = "Bitcoin Plumbers Guide"
 theme = "basic"
+
+[params]
+author = "Alexander Miller"
+description = "Code snippets and quick reference guides for Bitcoiners."
