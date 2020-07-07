@@ -1,3 +1,4 @@
 baseURL = "http://bitcoinplumbers.org/"
 languageCode = "en-us"
 title = "Bitcoin Plumbers Guide"
+theme = "basic"
