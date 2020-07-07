@@ -14,6 +14,7 @@
     {{ .Title }} - {{ .Site.Title }}
   {{- end -}}
   </title>
+  <meta name="author" content="{{ .Site.Params.author }}">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 {{ range .AlternativeOutputFormats -}}
   {{- $link := `<link rel="%s" type="%s" href="%s" title="%s">` -}}
