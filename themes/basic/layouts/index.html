@@ -1,7 +1,17 @@
 {{ define "main" }}
+  <div class="home-container">
+    <div class="home-content">
+      {{ .Content }}
+    </div>
 
-  {{ .Content }}
-
-Latest code snippet: {{ range first 1 (where .Site.RegularPages "Type" "in" "snippets").ByDate.Reverse }}
+    <div class="home-latest">
+      <h3>Recent updates</h3>
+      <ul>
+      {{ range first 1 (where .Site.RegularPages "Type" "in" "snippets").ByDate.Reverse }}
+        <li>Latest code snippet: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
+  </div>
 
 {{ end }}
