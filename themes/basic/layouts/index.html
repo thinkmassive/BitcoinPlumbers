@@ -2,4 +2,6 @@
 
   {{ .Content }}
 
+Latest code snippet: {{ range first 1 (where .Site.RegularPages "Type" "in" "snippets").ByDate.Reverse }}
+
 {{ end }}

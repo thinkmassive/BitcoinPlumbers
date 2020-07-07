@@ -2,7 +2,8 @@ Welcome to the Bitcoin Plumbers Guide.
 
 In this site you'll find:
 
-- network plumbing
-- system management
-- cloud management
-- quick references
+- Code Snippets for...
+  - networking
+  - system management
+  - cloud management
+- Quick References
