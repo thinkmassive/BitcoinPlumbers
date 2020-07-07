@@ -3,15 +3,6 @@ title: "Systemd Watchdog"
 draft: false
 ---
 
-![alt](//via.placeholder.com/640x150)
-
-Description...
-
-### List
-- item
-- item
-- item
-
 ```bash
 # copy this file to /etc/systemd/system/my-service-watchdog.service
 

@@ -3,8 +3,6 @@ title: "SSH Port Fowarding"
 draft: false
 ---
 
-![alt](//via.placeholder.com/640x150)
-
 ## Local port forwarding
 ```bash
 # expose dest-server:80 (via tunnel through ssh.example.com) on my localhost:8000
