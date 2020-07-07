@@ -23,4 +23,8 @@ nav > a {
 
 @media only screen and (min-width: 768px) {
   nav { flex-direction: row; }
+
+  .tip-container { display: flex; }
+  .tip-container .tip-list { width: 20%; }
+  .tip-container .tip { flex: 1; }
 }
