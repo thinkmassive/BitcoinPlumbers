@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div class="quickref-container">
+    <section class="quickref-list">
+      <h2>QuickRefs</h2>
+      <ul>
+        {{ range (where .Site.RegularPages "Type" "in" "quickref") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section class="quickref">
+      <h2>{{ .Title }}</h2>
+
+      {{ .Content }}
+    </section>
+  </div>
+{{ end }}

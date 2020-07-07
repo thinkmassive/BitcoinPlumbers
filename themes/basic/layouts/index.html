@@ -10,6 +10,9 @@
       {{ range first 1 (where .Site.RegularPages "Type" "in" "snippets").ByDate.Reverse }}
         <li>Latest code snippet: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{ end }}
+      {{ range first 1 (where .Site.RegularPages "Type" "in" "quickref").ByDate.Reverse }}
+        <li>Latest quickref: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
       </ul>
     </div>
   </div>

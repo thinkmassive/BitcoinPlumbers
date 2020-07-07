@@ -24,11 +24,16 @@ nav > a {
 @media only screen and (min-width: 768px) {
   nav { flex-direction: row; }
 
+  .home-container { display: flex; }
+  .home-container .home-content { width: 60%; }
+  .home-container .home-latest { width: 40%; }
+
   .snippet-container { display: flex; }
   .snippet-container .snippet-list { width: 20%; }
   .snippet-container .snippet { flex: 1; }
 
-  .home-container { display: flex; }
-  .home-container .home-content { width: 60%; }
-  .home-container .home-latest { width: 40%; }
+  .quickref-container { display: flex; }
+  .quickref-container .quickref-list { width: 20%; }
+  .quickref-container .quickref { flex: 1; }
+
 }
