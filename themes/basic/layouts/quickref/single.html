@@ -14,10 +14,6 @@
 
       {{ .Content }}
 
-      {{ if (.Params.image) }}
-        <img alt="{{ .Params.alt_text }}" src="{{ .Params.image }}">
-      {{ end }}
-
       <h3>Links</h3>
       <ul>
         <li><a href="{{ .Params.git_url }}">git repo</a></li>
