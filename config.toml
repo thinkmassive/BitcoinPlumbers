@@ -2,6 +2,7 @@ baseURL = "http://bitcoinplumbers.org/"
 languageCode = "en-us"
 title = "Bitcoin Plumbers Guide"
 theme = "basic"
+pygmentsUseClasses = true
 
 [params]
 author = "Alexander Miller"
