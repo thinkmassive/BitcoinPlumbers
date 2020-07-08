@@ -11,6 +11,16 @@
 
     <section class="quickref">
       <h2>{{ .Title }}</h2>
+      <span class="category">
+        {{ range .Params.categories }}
+          <a class="category" href="/categories/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </span>
+      <span class="tags">
+        {{ range .Params.tags }}
+          <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a> 
+        {{ end }}
+      </span>
 
       {{ .Content }}
 
