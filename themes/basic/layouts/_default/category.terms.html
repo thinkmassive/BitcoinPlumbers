@@ -4,11 +4,15 @@
 
   {{ .Content }}
 
-  {{ range .Data.Terms.Alphabetical }}
-  <p class="category">
-    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-    <span class="count">({{ .Count }})</span>
-  </p>
-  {{ end }}
+  <ul>
+      {{ $type := .Type }}
+      {{ range $key, $value := .Data.Terms.Alphabetical }}
+          {{ $name := .Name }}
+          {{ $count := .Count }}
+          {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+              <li><a href="{{ .Permalink }}">{{ $name }}</a> {{ $count }}</li>
+          {{ end }}
+      {{ end }}
+  </ul>
 
 {{ end }}
