@@ -5,14 +5,17 @@ summary: "Summary of the {{ replace .Name "-" " " | title }} project"
 git_url: https://github.com//{{ .Name }}
 docs_url: 
 categories:
-- fullnodes
-- wallets
-- indexers
-- miners
-- libraries
-- utilities
-- text
+- Full Nodes
+- Wallets
+- Indexers
+- Miners
+- Libraries
+- Utilities
+- Layer 2
+- Documentation
 tags:
+- enterprise
+- personal
 ---
 
 Description of the {{ replace .Name "-" " " | title }} project...
