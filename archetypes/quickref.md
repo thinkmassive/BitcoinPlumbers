@@ -22,6 +22,6 @@ Description of the {{ replace .Name "-" " " | title }} project...
 
 <h3>Links</h3>
 <ul>
-  <li><a href="{{ .Params.git_url }}">git repo</a></li>
-  <li><a href="{{ .Params.docs_url }}">docs</a></li>
+  <li><a href="">git repo</a></li>
+  <li><a href="">docs</a></li>
 </ul>
