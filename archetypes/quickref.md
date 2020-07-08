@@ -20,8 +20,5 @@ tags:
 
 Description of the {{ replace .Name "-" " " | title }} project...
 
-<h3>Links</h3>
-<ul>
-  <li><a href="">git repo</a></li>
-  <li><a href="">docs</a></li>
-</ul>
+### Links
+  - [git repo]()
