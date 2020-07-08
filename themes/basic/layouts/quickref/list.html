@@ -7,7 +7,7 @@
   <section class="quickrefs">
     {{ range .Pages }}
     <section class="quickref">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Params.categories}}</li>
     </section>
     {{ end }}
   </section>
