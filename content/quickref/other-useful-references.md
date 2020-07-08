@@ -5,7 +5,7 @@ summary: "Curated list of other useful Bitcoin references on the web"
 repo_url: 
 docs_url: 
 categories:
-- text
+- Documentation
 tags:
 ---
 

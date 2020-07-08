@@ -4,6 +4,10 @@ draft: false
 summary: "Summary of the Esplora Electrs project"
 repo_url: https://github.com/Blockstream/electrs
 docs_url: https://github.com/Blockstream/electrs/blob/new-index/README.md
+categories:
+- Indexers
+tags:
+- enterprise
 ---
 
 A block chain index engine and HTTP API written in Rust based on romanz/electrs.
