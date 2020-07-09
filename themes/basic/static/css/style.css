@@ -1,6 +1,14 @@
+body {
+  background-color: #58f;
+  background-image: url("/img/marioclouds_tiled.jpg");
+  background-size: 1200;
+}
+
 .container {
+  background-color: #fff;
   margin: 0 auto;
   width: 80%;
+  padding: 0.5em;
 }
 
 nav, footer {
@@ -55,3 +63,22 @@ a.category {
   text-decoration: none;
 }
 
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    background-image: url("/img/div-pipe_mid.png");
+}
+/*hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-left: -31px;
+    background-image: url("/img/div-pipe_left.png");
+}
+hr:after {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-right: 31px;
+    background-image: url("/img/div-pipe_right.png");
+}*/
