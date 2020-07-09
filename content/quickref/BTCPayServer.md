@@ -1,7 +1,7 @@
 ---
 title: "BTCPayServer"
 draft: false
-summary: "Summary of the BTCPayServer project"
+summary: "Payment processing platform with a BitPay-compatible interface."
 git_url: https://github.com/btcpayserver/btcpayserver
 docs_url: 
 categories:

@@ -1,7 +1,7 @@
 ---
 title: "Esplora Electrs"
 draft: false
-summary: "Summary of the Esplora Electrs project"
+summary: "Enterprise Electrum server forked from electrs, used as backed for Esplora block explorer."
 repo_url: https://github.com/Blockstream/electrs
 docs_url: https://github.com/Blockstream/electrs/blob/new-index/README.md
 categories:

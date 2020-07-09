@@ -9,7 +9,7 @@
     <h3>Layer 2</h3>
     {{ range ($layer2.Pages.ByTitle) }}
     <section class="quickref">
-      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Summary }}</li>
     </section>
     {{ end }}
 
@@ -17,7 +17,7 @@
     <h3>Indexers</h3>
     {{ range ($indexers.Pages.ByTitle) }}
     <section class="quickref">
-      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Summary }}</li>
     </section>
     {{ end }}
 
@@ -25,7 +25,7 @@
     <h3>Utilities</h3>
     {{ range ($utilities.Pages.ByTitle) }}
     <section class="quickref">
-      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Summary }}</li>
     </section>
     {{ end }}
 
@@ -33,7 +33,7 @@
     <h3>Documentation</h3>
     {{ range ($documentation.Pages.ByTitle) }}
     <section class="quickref">
-      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Summary }}</li>
     </section>
     {{ end }}
 

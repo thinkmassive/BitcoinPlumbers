@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Wallet Tracker"
 draft: false
-summary: "Summary of the Bitcoin Wallet Tracker project"
+summary: "Personal electrum server based upon Electrs, used as an Electrum client plugin."
 repo_url: https://github.com/shesek/bwt#electrum-plugin
 docs_url: https://github.com/shesek/bwt#electrum-plugin
 categories:
