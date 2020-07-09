@@ -1,4 +1,4 @@
-baseURL = "http://bitcoinplumbers.org/"
+baseURL = "https://bitcoinplumbers.org/"
 languageCode = "en-us"
 title = "Bitcoin Plumbers Guide"
 theme = "basic"
