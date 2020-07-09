@@ -4,6 +4,10 @@ date: 2020-07-06T20:56:55-04:00
 draft: false
 ---
 
+### Contact
+- Email: alex@thinkmassive.org
+- PGP fingerprint: 0563 EF72 A1D1 3909 8F30 F943 7A50 5CDD A81E 83D6
+
 ### Purpose
 This site started as a simple project to learn the [Hugo](https://gohugo.io) web framework. I chose the topic because I have a lot of notes that are easy to turn into content without committing to anything overly ambitious, and because I already owned the domain name.
 
@@ -14,3 +18,4 @@ Right now I'm just curious to know if anyone visits the site.
 
 ### Hosting Infrastructure
 We host on Netlify, which pulls from the public Github repo [https://github.com/thinkmassive/BitcoinPlumbers](https://github.com/thinkmassive/BitcoinPlumbers).
+
