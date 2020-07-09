@@ -8,6 +8,9 @@ draft: false
 - Email: alex@thinkmassive.org
 - PGP fingerprint: 0563 EF72 A1D1 3909 8F30 F943 7A50 5CDD A81E 83D6
 
+### Contributions &amp; Corrections
+Feel free to fork the [repo](https://github.com/thinkmassive/bitcoinplumbers) and open a pull request on Github.
+
 ### Purpose
 This site started as a simple project to learn the [Hugo](https://gohugo.io) web framework. I chose the topic because I have a lot of notes that are easy to turn into content without committing to anything overly ambitious, and because I already owned the domain name.
 
@@ -17,5 +20,5 @@ We use [Goat Counter](https://www.goatcounter.com/) for easy web analytics with 
 Right now I'm just curious to know if anyone visits the site.
 
 ### Hosting Infrastructure
-We host on Netlify, which pulls from the public Github repo [https://github.com/thinkmassive/BitcoinPlumbers](https://github.com/thinkmassive/BitcoinPlumbers).
+The site is hosted on Netlify, which pulls from the public Github repo [https://github.com/thinkmassive/BitcoinPlumbers](https://github.com/thinkmassive/BitcoinPlumbers)
 
