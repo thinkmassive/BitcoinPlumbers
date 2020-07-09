@@ -21,7 +21,7 @@ nav > a {
   color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   nav { flex-direction: row; }
 
   .home-container { display: flex; }
@@ -36,6 +36,10 @@ nav > a {
   .quickref-container .quickref-list { width: 20%; }
   .quickref-container .quickref { flex: 1; }
 
+  pre {    
+    max-width: 65vw;
+    overflow-x: auto;
+  }
 }
 
 a.tag {
@@ -55,3 +59,7 @@ a.category {
   text-decoration: none;
 }
 
+pre {    
+  max-width: 100vw;
+  overflow-x: auto;
+}
