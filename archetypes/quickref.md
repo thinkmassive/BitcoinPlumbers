@@ -4,8 +4,13 @@ draft: false
 summary: "Summary of the {{ replace .Name "-" " " | title }} project"
 git_url: https://github.com//{{ .Name }}
 docs_url: 
+latest_release:
+  version: 
+  date: 
+  url: 
+  checksum: 
 categories:
-- Full Nodes
+- FullNodes
 - Wallets
 - Indexers
 - Miners
