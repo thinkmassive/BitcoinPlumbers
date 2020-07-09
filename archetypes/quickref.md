@@ -11,7 +11,7 @@ categories:
 - Miners
 - Libraries
 - Utilities
-- Layer 2
+- Layer2
 - Documentation
 tags:
 - enterprise

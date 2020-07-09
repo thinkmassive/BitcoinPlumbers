@@ -5,11 +5,38 @@
   {{ .Content }}
 
   <section class="quickrefs">
-    {{ range .Pages }}
+    {{ $layer2 := .Site.Taxonomies.categories.layer2 }}
+    <h3>Layer 2</h3>
+    {{ range ($layer2.Pages.ByTitle) }}
     <section class="quickref">
-      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Params.categories}}</li>
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     </section>
     {{ end }}
+
+    {{ $indexers := .Site.Taxonomies.categories.indexers }}
+    <h3>Indexers</h3>
+    {{ range ($indexers.Pages.ByTitle) }}
+    <section class="quickref">
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    </section>
+    {{ end }}
+
+    {{ $utilities := .Site.Taxonomies.categories.utilities }}
+    <h3>Utilities</h3>
+    {{ range ($utilities.Pages.ByTitle) }}
+    <section class="quickref">
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    </section>
+    {{ end }}
+
+    {{ $documentation := .Site.Taxonomies.categories.documentation }}
+    <h3>Documentation</h3>
+    {{ range ($documentation.Pages.ByTitle) }}
+    <section class="quickref">
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    </section>
+    {{ end }}
+
   </section>
 
 {{ end }}

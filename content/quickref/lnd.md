@@ -5,7 +5,7 @@ summary: "Lightning Network Daemon"
 git_url: https://github.com/lightningnetwork/lnd
 docs_url: 
 categories:
-- Layer 2
+- Layer2
 tags:
 - enterprise
 - personal

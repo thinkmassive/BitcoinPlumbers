@@ -5,7 +5,7 @@ summary: "Private & scalable smart contracts for Bitcoin and Lightning Network"
 git_url: https://github.com//RGB
 docs_url: 
 categories:
-- Layer 2
+- Layer2
 tags:
 - enterprise
 - personal
