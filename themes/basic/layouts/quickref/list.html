@@ -21,6 +21,14 @@
     </section>
     {{ end }}
 
+    {{ $indexers := .Site.Taxonomies.categories.fullnodes }}
+    <h3>Full Nodes</h3>
+    {{ range ($indexers.Pages.ByTitle) }}
+    <section class="quickref">
+      <li class="quickref"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Summary }}</li>
+    </section>
+    {{ end }}
+
     {{ $utilities := .Site.Taxonomies.categories.utilities }}
     <h3>Utilities</h3>
     {{ range ($utilities.Pages.ByTitle) }}
