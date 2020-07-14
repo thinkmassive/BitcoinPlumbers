@@ -16,3 +16,12 @@ tags:
 ---
 
 Electrum server written in python.
+
+## Troubleshooting
+
+Data corruption typically requires deleting the data and re-initializing. Database repair is theoretically possible ([src](https://github.com/spesmilo/electrumx/issues/41)):
+```
+cd <datadir>
+python3 -c "import plyvel; plyvel.repair_db('hist')"
+python3 -c "import plyvel; plyvel.repair_db('utxo')"
+```
